@@ -64,7 +64,7 @@ const Contact = () => {
         <img
           src="/assets/terminal.png"
           alt="terminal-bg"
-          className="absolute  inset-0 min-h-screen"
+          className="absolute max-sm:h-full inset-0 min-h-screen"
         />
         <div className="contact-container w-full max-w-3xl mx-auto p-4 relative z-10 sm:top-5">
           <h3 className="head-text">Let's Talk</h3>

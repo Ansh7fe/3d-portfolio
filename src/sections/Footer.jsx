@@ -9,23 +9,35 @@ const Footer = () => {
         <p>Privacy Policy</p>
       </div>
       <div className="flex gap-3">
-        <div className="social-icon">
+        <a
+          className="social-icon"
+          href="https://github.com/Ansh7fe"
+          target="_blank"
+        >
           <img src="/assets/github.svg" alt="github" className="w-1/2 h-1/2" />
-        </div>
-        <div className="social-icon">
+        </a>
+        <a
+          className="social-icon"
+          href="https://x.com/anshjhanwar07"
+          target="_blank"
+        >
           <img
             src="/assets/twitter.svg"
             alt="twitter"
             className="w-1/2 h-1/2"
           />
-        </div>
-        <div className="social-icon">
+        </a>
+        <a
+          className="social-icon"
+          href="https://www.linkedin.com/in/ansh-jhanwar-76b789217/"
+          target="_blank"
+        >
           <img
             src="/assets/linkedin.svg"
             alt="linkedin"
             className="w-1/2 h-1/2 "
           />
-        </div>
+        </a>
       </div>
       <p className="text-white-500">
         © 2025 Ansh Jhanwar. All rights reserved.
