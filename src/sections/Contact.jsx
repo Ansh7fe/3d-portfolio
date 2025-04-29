@@ -29,10 +29,9 @@ const Contact = () => {
       const userID = import.meta.env.VITE_APP_EMAILJS_USER_ID;
 
       const templateParams = {
-        from_name: formData.name,
+        name: formData.name,
         to_name: "Ansh Jhanwar",
-        from_email: formData.email,
-        to_email: "your-email@example.com", // your email here
+        email: formData.email,
         message: formData.message,
       };
 
